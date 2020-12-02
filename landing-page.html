@@ -1,0 +1,277 @@
+<html>
+
+<head>
+  <title>landing-page</title>
+  <link rel="stylesheet" type="text/css" href="portfolio-style.css" />
+  <!-- <script src="main.js"></script> -->
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="portfolio.js"></script>
+
+</head>
+
+<body>
+  <div class="header" aira-labelledby="the begining header of landing page">
+    <nav class="nav-bar" aria-labelledby="navigation menu">
+      <!-- <a href="#top">me</a> -->
+      <a href="#bio">bio</a>
+      <a href="#info">personal info</a>
+      <a href="#resume">resume</a>
+      <a href="#section-title">Projects</a>
+      <div class="dropdown" aria-labelledby="a dropdown menu for feedback and datas">
+        <a class="dropbtn">more<i class="material-icons">keyboard_arrow_down</i></a>
+        <div class="dropdown-content" aria-labelledby="two menus">
+          <a href="data-collection.html">write feedback</a>
+          <a href="data-visualization.html">data Visualizations</a>
+        </div>
+      </div>
+        <a href="#top" class="back-to-top"><i id="btp" class="material-icons">vertical_align_top</i></a>
+    </nav>
+  </div>
+
+  <h id="top"> </h>
+  <div class="myname" aira-labelledby="my name">
+    <h id="name"> YUFEI LIU </h>
+  </div>
+
+
+  <h id="bio"> </h>
+  <div class="bio" aria-labelledby="mybio">
+    <h1>About me</h1>
+    <p>My name is Yufei Liu, Chinese, Computer science major.</p>
+    <h id="info"> </h>
+    <p>Syracuse University 2019, Northwestern University 2022</p>
+    <p>Love guitar and Harry Potter. Always enjoy writing Chinese brush calligraphy</p>
+    <img src="images/me.jpg" id="photo" alt="my photo"></img>
+  </div>
+
+  <div class="info" aria-labelledby="my personal info">
+    <h2>Yufei Liu</h2>
+    <p>phone number:315949xxxx</p>
+    <p>email:1549818312@qq.com</p>
+    <h id="resume"> </h>
+  </div>
+
+  <div class="resume" aria-labelledby="my resume">
+    <h2>EDUCATION</h2>
+    <div class="line" aria-labelledby="a cut-off line"></div>
+    <table>
+      <tr>
+        <td class="head-name">Northwestern University</td>
+        <td class="time">08/2020-12/2022(expected)</td>
+      </tr>
+      <tr>
+        <td class="detail">Expected Degree: Master's in Computer Science</td>
+      </tr>
+    </table>
+
+    <h2>CLASS PROJECT</h2>
+    <div class="line" aria-labelledby="a cut-off line"></div>
+    <table>
+      <tr>
+        <td class="head-name">Simulating mucis app</td>
+        <td class="time">10/2020</td>
+      </tr>
+    </table>
+    <p>-Build a mobile music player application using HTML, CSS, and Javascript.</p>
+    <p>-Implement a two-screen music player interface showing an album and song select screen</p>
+    <p>using HTML and CSS. </p>
+    <p>-Implement the music player screens using Javascript.</p>
+    <a class="btn" href="#section-title">click to see detail</a>
+
+    <h2>INTERNSHIP</h2>
+    <div class="line" aria-labelledby="a cut-off line"></div>
+    <table>
+      <tr>
+        <td class="head-name">Jiangxi Branch of China Telecom Co., LTD </td>
+        <td class="time">05/2018-06/2018</td>
+      </tr>
+      <tr>
+        <td class="detail">Software Enginee</td>
+      </tr>
+    </table>
+    <p>-Took charge of updating the UI of Love Marketing application</p>
+    <p>-Used React Native to develop applications for Android, iOS and Web</p>
+    <p>-Developed cross-platform applications by using JavaScript and CSS</p>
+
+    <h2>RESEARCH EXPERIENCE</h2>
+    <div class="line" aria-labelledby="a cut-off line"></div>
+    <table>
+      <tr>
+        <td class="head-name">Research on ChangeMyView(CMV) Subreddit</td>
+        <td class="time">05/2019-12/2019</td>
+      </tr>
+    </table>
+    <p>-CMV is most commonly known as the forum on reddit, which is a place for inviting others to</p>
+    <p>explain why they disagree with you in the pursuit of greater understanding.</p>
+    <p>-My job is to analyze how people make sentences more convincible.</p>
+    <p>-Used the Upvote and Downvote as the evaluation standards and determined if the similarity</p>
+    <p>could influence the users engaging with comments.</p>
+    <p>-Conducted data analysis with Python and used the Matplotlib to make plots for data in</p>
+    <p>order to show the data more directly.</p>
+
+  </div>
+
+  <h2 id="section-title">My Projects showcase</h2>
+
+
+
+  <div id="main-page" aria-labelledby="the main page of music app">
+    <div class="background-iphone" alt="background image: iphone">
+      <div id="screen" aria-labelledby="the whole iphone screen">
+        <div class="head-bar" aria-labelledby="header of the app">
+          <h1 class="head">My Music</h1>
+        </div>
+        <a onclick="changepage()">
+          <img src="images/cbook.jpg" class="album1" alt="cbook album cover"></img>
+        </a>
+        <img src="images/crybaby.jpg" class="album2" alt="crybaby album cover"></img>
+
+        <table>
+          <tr>
+            <th class="album-name">Coloring Book</th>
+            <th class="album-name">Crybaby</th>
+          </tr>
+          <tr>
+            <td class="album-singer">Chance The Rapper</td>
+            <td class="album-singer">Melanie Martinez</td>
+          </tr>
+        </table>
+
+        <img src="images/currents.jpg" class="album1" alt="currents album cover"></img>
+        <img src="images/telefone.jpeg" class="album2" alt="telefone album cover"></img>
+        <table>
+          <tr>
+            <th class="album-name">Currents</th>
+            <th class="album-name">Telefone</th>
+          </tr>
+          <tr>
+            <td class="album-singer">Tame Impala</td>
+            <td class="album-singer">Noname</td>
+          </tr>
+        </table>
+
+      </div>
+
+
+    </div>
+
+    <div class="discription" aira-labelledby="discription of this project">
+      <h2 id="first">first project</h2>
+      <p> implement a two-screen music player interface showing an album and song select screen using HTML and CSS.</p>
+      <span id="more">
+        <p>This first screen contains the album covers of four different albums as well as the album name and artist name. </p>
+        <p>Click the first picture to see the list of songs in this album.</p>
+      </span>
+      </p>
+    </div>
+
+    <a onclick="expand()" class="expand-more"><i id="moreinfo" class="material-icons">expand_more</i>
+
+      <p id="message">click to read more</p>
+    </a>
+
+  </div>
+
+  <div id="play-page" aria-labelledby="the play list of the album">
+    <div class="background-iphone" alt="background image: iphone">
+      <div id="screen2" aria-labelledby="the whole iphone screen">
+        <div class="head-bar">
+          <a onclick="changepage()" class="back-button">&#8249;</a>
+          <p class="songs-album-name">Coloring Book</p>
+          <p class="songs-artist-name"> Chance The Rapper</p>
+          <p class="songs-album-year">2015</p>
+        </div>
+        <img src="images/cbook.jpg" class="songs-album-art" alt="Cover of Cbook"></img>
+
+        <ol>
+          <li class="songs-list">Let It Happen</li>
+          <li class="songs-list">Nangs</li>
+          <li class="songs-list">The Moment</li>
+          <li class="songs-list">Yes I'm Changing</li>
+          <li class="songs-list">Eventually</li>
+          <li class="songs-list">Gossip</li>
+          <li class="songs-list">The Less I Know The Better</li>
+          <li class="songs-list">Past Life</li>
+          <li class="songs-list">Disciples</li>
+          <li class="songs-list">'Cause I'm A Man</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="discription2" aira-labelledby="discription of this project">
+      <h2 id="first">first project</h2>
+      <p> This second screen should contain the track listing of 10 songs found on a mock-up album.</p>
+      <span id="more2">
+        <p>In the main area of the page place the album cover on the top, with the album name, artist name, and album year to the right of the cover.</p>
+        <p>Use an ordered list to display the first 10 tracks on the given album. Create a border around each list element.</p>
+        <p>The back arrow at the top should link back to main page.</p>
+      </span>
+      </p>
+    </div>
+
+    <a onclick="expand2()" class="expand-more2"><i id="moreinfo2" class="material-icons">expand_more</i>
+
+      <p id="message2">click to read more</p>
+    </a>
+  </div>
+
+
+  <div id="player" aria-labelledby="the player interface of the songs">
+    <div class="background-iphone2" alt="background image: iphone">
+      <div id="head-bar2">
+        <a href="#section-title" class="back-button2">&#8249;</a>
+      </div>
+      <img src="images/currents.jpg" alt="Currents Album Cover" class="player-album-art " />
+      <div aria-labelledby="information of the sone">
+        <p id="player-song-name">The Less I Know The Better</p>
+        <p class="player-song-info"><em>Currents</em> - Tame Impala</p>
+      </div>
+      <input type="range" id="player-time">
+      <div id="time-elapsed">0:00</div>
+      <div id="time-total">3:00</div>
+      <div class="player-controls ">
+        <button onclick="prevSong()"><i class="material-icons">skip_previous</i></button>
+        <button id="switch" onclick="switchPlay()"><i class="material-icons">play_arrow</i></button>
+        <button onclick="nextSong()"><i class="material-icons">skip_next</i></button>
+      </div>
+      <div id="vl">
+        <div class="vbutton"><i class="material-icons">volume_down</i>
+          <div id="vl0"></div>
+          <div id="vl1"></div>
+          <div id="vl2"></div>
+          <div id="vl3"></div>
+          <div id="vl4"></div>
+          <div id="vl5"></div>
+        </div>
+      </div>
+      <button onclick="volDown()" class="vd">-</button>
+      <button onclick="volUp()" class="vu">+</button>
+    </div>
+
+    <div class="discription3" aira-labelledby="discription of this project">
+      <h2 id="second">second project</h2>
+      <p> implement a basic music player using Javascript, HTML, and CSS.</p>
+      <p>Move progress bar to change the timeline of the song</p>
+      <p>Click the pause or play button.</p>
+      <p>Click volumn button to change the volumn.</p>
+      <p>Click next song or previous song button to change the song.</p>
+      <p>Click the back button to go back to the previous project.</p>
+      </p>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="ipod.js"></script>
+
+
+
+
+
+</body>
+
+
+</html>
